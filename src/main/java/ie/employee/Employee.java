@@ -40,7 +40,27 @@ public class Employee {
         this.age = Age;
     }
 
+    public String getTitle() {
+        return title;
+    }
 
+    public String getName() {
+        return name;
+    }
 
+    public String getPpsId() {
+        return ppsId;
+    }
 
+    public int getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public String getEmploymentType() {
+        return employmentType;
+    }
+
+    public int getAge() {
+        return age;
+    }
 }
